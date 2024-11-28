@@ -5,6 +5,13 @@
 ## Solution:
 - [WeatherPy](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/WeatherPy.ipynb)
 - [VacationPy](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/VacationPy.ipynb)
+- [Data Retrieved using API](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/cities.csv)
+- [Analysis Report]()
+- [Plotted_Temprature](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/Fig1.png)
+- [Plotted Humidity](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/Fig2.png)
+- [Plotted Cloudiness](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/Fig3.png)
+- [Plotted Wind Speed](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/Fig3.png)
+- [Plotted Regressions](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/All_Plots.png)
 
 ## <ins>WeatherPy</ins>
 Create a Python script to visualize the weather of over 500 cities of varying distances from the equator. Use the [citipy Python library](https://pypi.org/project/citipy/), the [OpenWeatherMap API](https://openweathermap.org/api), and the problem-solving skills to create a representative model of weather across cities.
