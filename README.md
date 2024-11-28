@@ -2,7 +2,7 @@
 This activity is broken down into two deliverables, WeatherPy and VacationPy.
 ---------------------------------------------------------------------------
 ## WeatherPy
-Create a Python script to visualize the weather of over 500 cities of varying distances from the equator. Use the '''[citipy](https://pypi.org/project/citipy/)''' Python libraryLinks to an external site., the OpenWeatherMap APILinks to an external site., and the problem-solving skills to create a representative model of weather across cities.
+Create a Python script to visualize the weather of over 500 cities of varying distances from the equator. Use the ```[citipy](https://pypi.org/project/citipy/)``` Python libraryLinks to an external site., the OpenWeatherMap APILinks to an external site., and the problem-solving skills to create a representative model of weather across cities.
 
 The code required to generate random geographic coordinates and the nearest city to each latitude and longitude combination is provided.
 
