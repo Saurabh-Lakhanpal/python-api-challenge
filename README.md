@@ -1,7 +1,7 @@
 # python-api-challenge
 This activity is broken down into two deliverables, WeatherPy and VacationPy.
 ---------------------------------------------------------------------------
-## WeatherPy
+## <ins>WeatherPy</ins>
 Create a Python script to visualize the weather of over 500 cities of varying distances from the equator. Use the [citipy Python library](https://pypi.org/project/citipy/), the [OpenWeatherMap API](https://openweathermap.org/api), and the problem-solving skills to create a representative model of weather across cities.
 
 The code required to generate random geographic coordinates and the nearest city to each latitude and longitude combination is provided.
@@ -34,7 +34,7 @@ Create the following plots:
 
 After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings uncovered.
 
-### VacationPy
+## <ins>VacationPy</ins>
 Use the weather data skills to plan future vacations. Use Jupyter notebooks, the geoViews Python library, and the Geoapify API.</br>
 The code needed to import the required libraries and load the CSV file with the weather and coordinates data for each city created in the first part.</br>
 Use the Geoapify API and the geoViews Python library and employ your Python skills to create map visualizations.</br>
@@ -53,35 +53,23 @@ Complete the following steps:
 
   - Zero cloudiness
 
-note
-Feel free to adjust your specifications but make sure to set a reasonable limit to the number of rows returned by your API requests.
+- Create a new DataFrame called ```hotel_df``` to store the city, country, coordinates, and humidity.
 
-Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
+- For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
 
-For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
+- Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
 
-Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
+![image](https://github.com/user-attachments/assets/d621eddb-6204-4823-8356-2fbc2959defe)
 
-Hotel map
-
-Hints and Considerations
-The city data that you generate is based on random coordinates and different query times, so your outputs will not be an exact match to the provided starter notebook.
-
-If you'd like a refresher on the geographic coordinate system, this siteLinks to an external site. has great information.
-
-Take some time to study the OpenWeatherMap API. Based on your initial study, you should be able to answer basic questions about the API: Where do you request the API key? Which Weather API in particular will you need? What URL endpoints does it expect? What JSON structure does it respond with? Before you write a line of code, you should have a crystal-clear understanding of your intended outcome.
-
-A starter code for citipy has been provided. However, if you're craving an extra challenge, push yourself to learn how it works by using the citipy Python libraryLinks to an external site.. Before you try to incorporate the library in your analysis, start with simple test cases outside of your main script to confirm that you are using it correctly. Often, when introduced to a new library, learners spend hours trying to figure out errors in their code when a simple test case can save you a lot of time and frustration.
-
-You will need to apply your critical thinking skills to understand how and why we're recommending these tools. What is citipy used for? Why would you use it in conjunction with the OpenWeatherMap API? How would you do so?
-
-While building your script, pay attention to the cities you are using in your query pool. Are you covering the full range of latitudes and longitudes? Or are you choosing 500 cities from one region of the world? Even if you were a geography genius, simply listing 500 cities based on your personal selection would create a biased dataset. Try to think of ways that you can counter these selection issues.
-
-Hint: Consider the full range of latitudes.
-Once you have computed the linear regression for one relationship, you will follow a similar process for all other charts. Optionally, try to create a function that will create these charts based on different parameters. (Note: there will be no extra points for completing this.)
-
-Remember that each coordinate will trigger a separate call to the Google API. If you're creating your own criteria to plan your vacation, try to reduce the results in your DataFrame to 10 or fewer cities.
-
-Ensure that your repository has regular commits and a thorough README.md file.
-
-Lastly, remember that this is a challenging activity. Push yourself! If you complete this task, you can safely say that you've gained a strong understanding of the core foundations of data analytics, and it will only get better from here. Good luck!
+### <ins>Considerations</ins>
+- The city data that gets generated is based on random coordinates and different query times, so the outputs will not be an exact match to the provided starter notebook.</br>
+- A refresher on the [geographic coordinate system](https://desktop.arcgis.com/en/arcmap/10.3/guide-books/map-projections/about-geographic-coordinate-systems.htm) for information.</br>
+- Try to answer basic questions about the API: Where do you request the API key? Which Weather API in particular will you need? What URL endpoints does it expect? What JSON structure does it respond with? Before you write a line of code, you should have a crystal-clear understanding of your intended outcome.</br>
+- Learn how it works by using the [citipy Python library](https://pypi.org/project/citipy/). Before trying to incorporate the library in the analysis, start with simple test cases outside of the main script to confirm that it is being used correctly. Often, when introduced to a new library, learners spend hours trying to figure out errors in their code when a simple test case can save a lot of time and frustration.</br>
+- Apply critical thinking skills to understand how and why we're recommending these tools. What is citipy used for? Why would you use it in conjunction with the OpenWeatherMap API? How would you do so?</br>
+- While building the script, pay attention to the cities being used in your query pool. Are you covering the full range of latitudes and longitudes? Or are you choosing 500 cities from one region of the world? Even if you were a geography genius, simply listing 500 cities based on your personal selection would create a biased dataset. Try to think of ways that you can counter these selection issues.</br>
+  - Hint: Consider the full range of latitudes.</br>
+- Once the linear regression for one relationship, follow a similar process for all other charts. Optionally, try to create a function that will create these charts based on different parameters.</br>
+   (Note: there will be no extra points for completing this.)</br>
+- Remember that each coordinate will trigger a separate call to the Google API. If you're creating your own criteria to plan your vacation, try to reduce the results in your DataFrame to 10 or fewer cities.</br>
+- Ensure that your repository has regular commits and a thorough README.md file.</br>
