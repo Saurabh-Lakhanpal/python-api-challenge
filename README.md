@@ -6,7 +6,7 @@ Create a Python script to visualize the weather of over 500 cities of varying di
 
 The code required to generate random geographic coordinates and the nearest city to each latitude and longitude combination is provided.
 
-#### <ins>Requirement 1: Create Plots to Showcase the Relationship Between Weather Variables and Latitude</ins>
+#### <ins>Create Plots to Showcase the Relationship Between Weather Variables and Latitude</ins>
 To fulfill the first requirement, use the OpenWeatherMap API to retrieve weather data from the cities list generated in the starter code. Create a series of scatter plots to showcase the following relationships:
 
 - Latitude vs. Temperature</br>
@@ -14,53 +14,43 @@ To fulfill the first requirement, use the OpenWeatherMap API to retrieve weather
 - Latitude vs. Cloudiness</br>
 - Latitude vs. Wind Speed</br>
 
-Requirement 2: Compute Linear Regression for Each Relationship
-To fulfill the second requirement, compute the linear regression for each relationship. Separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). You may find it helpful to define a function in order to create the linear regression plots.
+#### <ins>Compute Linear Regression for Each Relationship</ins>
+Compute the linear regression for each relationship. Separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude).
 
-Next, create a series of scatter plots. Be sure to include the linear regression line, the model's formula, and the r^2 values as you can see in the following image
+Create a series of scatter plots. Be sure to include the linear regression line, the model's formula, and the r^2 values as you can see in the following image
+![image](https://github.com/user-attachments/assets/b3b765c7-8893-4baa-90d6-a108b373eefa)
 
-Sample scatter plot with the linear regression line.
+Create the following plots:
 
-You should create the following plots:
+- Northern Hemisphere: Temperature vs. Latitude</br>
+- Southern Hemisphere: Temperature vs. Latitude</br>
+- Northern Hemisphere: Humidity vs. Latitude</br>
+- Southern Hemisphere: Humidity vs. Latitude</br>
+- Northern Hemisphere: Cloudiness vs. Latitude</br>
+- Southern Hemisphere: Cloudiness vs. Latitude</br>
+- Northern Hemisphere: Wind Speed vs. Latitude</br>
+- Southern Hemisphere: Wind Speed vs. Latitude</br>
 
-Northern Hemisphere: Temperature vs. Latitude
+After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings uncovered.
 
-Southern Hemisphere: Temperature vs. Latitude
+### VacationPy
+Use the weather data skills to plan future vacations. Use Jupyter notebooks, the geoViews Python library, and the Geoapify API.</br>
+The code needed to import the required libraries and load the CSV file with the weather and coordinates data for each city created in the first part.</br>
+Use the Geoapify API and the geoViews Python library and employ your Python skills to create map visualizations.</br>
 
-Northern Hemisphere: Humidity vs. Latitude
+Complete the following steps:
 
-Southern Hemisphere: Humidity vs. Latitude
+- Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
 
-Northern Hemisphere: Cloudiness vs. Latitude
+![image](https://github.com/user-attachments/assets/cf04deff-4878-4400-be00-4f50f3ba375c)
 
-Southern Hemisphere: Cloudiness vs. Latitude
+- Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
 
-Northern Hemisphere: Wind Speed vs. Latitude
+-- A max temperature lower than 27 degrees but higher than 21
 
-Southern Hemisphere: Wind Speed vs. Latitude
+-- Wind speed less than 4.5 m/s
 
-After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
-
-Part 2: VacationPy
-In this deliverable, you'll use your weather data skills to plan future vacations. Also, you'll use Jupyter notebooks, the geoViews Python library, and the Geoapify API.
-
-The code needed to import the required libraries and load the CSV file with the weather and coordinates data for each city created in Part 1 is provided to help you get started.
-
-Your main tasks will be to use the Geoapify API and the geoViews Python library and employ your Python skills to create map visualizations.
-
-To succeed on this deliverable of the assignment, open the VacationPy.ipynb starter code and complete the following steps:
-
-Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
-
-Humidity map
-
-Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
-
-A max temperature lower than 27 degrees but higher than 21
-
-Wind speed less than 4.5 m/s
-
-Zero cloudiness
+-- Zero cloudiness
 
 note
 Feel free to adjust your specifications but make sure to set a reasonable limit to the number of rows returned by your API requests.
