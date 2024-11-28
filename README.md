@@ -1,5 +1,5 @@
 # python-api-challenge
-This activity is broken down into two deliverables, WeatherPy and VacationPy.
+#### This activity is broken down into two deliverables, WeatherPy and VacationPy.
 ---------------------------------------------------------------------------
 ## <ins>WeatherPy</ins>
 Create a Python script to visualize the weather of over 500 cities of varying distances from the equator. Use the [citipy Python library](https://pypi.org/project/citipy/), the [OpenWeatherMap API](https://openweathermap.org/api), and the problem-solving skills to create a representative model of weather across cities.
