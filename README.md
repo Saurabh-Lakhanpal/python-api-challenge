@@ -1,5 +1,5 @@
 # python-api-challenge
-_____________________________________________________________________________________
+
 #### This activity is broken down into two deliverables, WeatherPy and VacationPy.
 _______________________________________________________________________________________
 ## <ins>WeatherPy</ins>
