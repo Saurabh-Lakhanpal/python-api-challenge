@@ -18,6 +18,7 @@ To fulfill the first requirement, use the OpenWeatherMap API to retrieve weather
 Compute the linear regression for each relationship. Separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude).
 
 Create a series of scatter plots. Be sure to include the linear regression line, the model's formula, and the r^2 values as you can see in the following image
+
 ![image](https://github.com/user-attachments/assets/b3b765c7-8893-4baa-90d6-a108b373eefa)
 
 Create the following plots:
@@ -46,11 +47,11 @@ Complete the following steps:
 
 - Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
 
--- A max temperature lower than 27 degrees but higher than 21
+  - A max temperature lower than 27 degrees but higher than 21
 
--- Wind speed less than 4.5 m/s
+  - Wind speed less than 4.5 m/s
 
--- Zero cloudiness
+  - Zero cloudiness
 
 note
 Feel free to adjust your specifications but make sure to set a reasonable limit to the number of rows returned by your API requests.
