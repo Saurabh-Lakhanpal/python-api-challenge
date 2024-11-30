@@ -3,9 +3,9 @@
 #### This activity is broken down into two deliverables, WeatherPy and VacationPy.
 
 ## Solution:
+- [Analysis Report](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/REPORT.md)
 - [WeatherPy.ipynb](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/WeatherPy.ipynb)
 - [VacationPy.ipynb](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/VacationPy.ipynb)
-- [Analysis Report](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/REPORT.md)
 - [Data Retrieved using API](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/cities.csv)
 
 ## <ins>WeatherPy</ins>
