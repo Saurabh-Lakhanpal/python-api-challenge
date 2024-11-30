@@ -8,4 +8,9 @@ ___
 ___
 ### Southren Hemisphere Weather Insights
 ![image](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/SouthHemiPlots.png)
-
+___
+### Cities Weather Map"
+![image]()
+___
+### Cities with "Nice Weather" and Hotels found"
+![image]()
