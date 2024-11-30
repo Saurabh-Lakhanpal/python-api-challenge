@@ -5,7 +5,7 @@
 ## Solution:
 - [WeatherPy.ipynb](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/WeatherPy.ipynb)
 - [VacationPy.ipynb](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/VacationPy.ipynb)
-- [Analysis Report]()
+- [Analysis Report](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/REPORT.md)
 - [Data Retrieved using API](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/cities.csv)
 
 ## <ins>WeatherPy</ins>
