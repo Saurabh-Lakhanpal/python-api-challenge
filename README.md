@@ -5,8 +5,8 @@
 ## Solution:
 - [WeatherPy.ipynb](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/WeatherPy.ipynb)
 - [VacationPy.ipynb](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/VacationPy.ipynb)
-- [Data Retrieved using API](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/cities.csv)
 - [Analysis Report]()
+- [Data Retrieved using API](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/cities.csv)
 
 ## <ins>WeatherPy</ins>
 Create a Python script to visualize the weather of over 500 cities of varying distances from the equator. Use the [citipy Python library](https://pypi.org/project/citipy/), the [OpenWeatherMap API](https://openweathermap.org/api), and the problem-solving skills to create a representative model of weather across cities.
