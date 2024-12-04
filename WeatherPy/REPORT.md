@@ -4,14 +4,20 @@
 ![image](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/CityPlots.png)
 ___
 ### Northern vs Sothren Hemisphere Weather Insights
+<p float="left">
+  <img src="https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/NorthHemiPlots.png" width="100" />
+  <img src="[/img2.png](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/SouthHemiPlots.png)" width="100" /> 
+</p>
+
+
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Title</b></td>
     <td><b style="font-size:30px">Title 2</b></td>
  </tr>
  <tr>
-    <td>![image](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/NorthHemiPlots.png)</td>
-    <td>![image](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/SouthHemiPlots.png)</td>
+    <td></td>
+    <td>![image]()</td>
  </tr>
 </table>
 
