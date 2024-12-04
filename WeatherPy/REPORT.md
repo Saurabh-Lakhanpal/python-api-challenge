@@ -27,4 +27,6 @@ ___
 ![image](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/CitiesWeatherMap.png)
 ___
 ### Cities with "Nice Weather" and Hotels
+![image](https://github.com/user-attachments/assets/35d9c6c0-ca7f-4bb8-9934-1a7f8effb520)
+
 ![image](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/HotelsMap.png)
