@@ -4,8 +4,8 @@
 ![image](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/CityPlots.png)
 ___
 ### Northern vs Sothren Hemisphere Weather Insights
-![image](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/NorthHemiPlots.png) ![image](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/SouthHemiPlots.png)
-<img src="https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/NorthHemiPlots.png" width="425"/> <img src="https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/SouthHemiPlots.png" width="425"/> 
+
+<img src="https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/NorthHemiPlots.png" width="50%"/> <img src="https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/SouthHemiPlots.png" width="50%"/> 
 
 ## Temperature 
 The max temperature appears show a strong negative linear relationship with latitudes in the northern hemisphere, with an r-value of -0.74. The max temperature appears show a strong positive linear relationship with latitudes in the southern hemisphere, with an r-value of 0.46.
