@@ -4,7 +4,7 @@
 ![image](https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/CityPlots.png)
 ___
 ### Northern vs Sothren Hemisphere Weather Insights
-<p float="left">
+<p float="left" display: inline>
   <img src="https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/NorthHemiPlots.png" width="50%" />
   <img src="https://github.com/Saurabh-Lakhanpal/python-api-challenge/blob/main/WeatherPy/output_data/SouthHemiPlots.png" width="50%" /> 
 </p>
